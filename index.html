@@ -14,7 +14,9 @@
   </head>
   
   <body style="margin: 0; overflow: hidden;">
-    <a-scene arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;debugUIEnabled: false;">
+    <a-scene vr-mode-ui="enabled: false"
+             embedded
+             arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;debugUIEnabled: false;">
       
        <a-image src="./magnemite/1975barriodelpilar.jpg"> </a-image> 
       <a-entity rotation="0 90 0" scale="0 0 0" gps-entity-place="longitude: 40.47858; latitude:-3.714;"></a-entity>
